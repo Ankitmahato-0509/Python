@@ -1,0 +1,3 @@
+I am from Noida, Uttar Pradesh.
+Python is a high-level, interpreted programming language.
+Hello! My name is Ankit Mahato.
