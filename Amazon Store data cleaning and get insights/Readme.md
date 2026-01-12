@@ -3,7 +3,7 @@
 
 A practical Python project demonstrating data cleaning, analysis, and basic recommendation logic using customer review data stored in JSON format.
 
----
+-
 
 ## Overview
 
@@ -14,7 +14,7 @@ The project focuses on:
 - Deriving meaningful insights from customer ratings
 - Generating simple brand recommendations
 
----
+-
 
 ## Contents
 
@@ -36,7 +36,7 @@ The project focuses on:
      - `feedback` – Customer feedback text
      - `age` – Customer age (some values missing)
 
----
+-
 
 ## Key Concepts
 
@@ -120,7 +120,7 @@ From sample execution:
   * High ratings favor **Apple**
   * Lower ratings favor **Samsung**
 
----
+-
 
 ## Learning Outcomes
 
@@ -144,7 +144,7 @@ Amazon-Store-Data/
 └── store_data.json
 ```
 
----
+-
 
 ## Requirements
 
@@ -152,7 +152,7 @@ Amazon-Store-Data/
 * Jupyter Notebook
 * No external libraries required (uses built-in modules)
 
----
+-
 
 ## Getting Started
 
@@ -165,7 +165,7 @@ Amazon-Store-Data/
    ```
 4. Run the cells sequentially to view results
 
----
+-
 
 ## Topics Covered
 
@@ -177,7 +177,7 @@ Amazon-Store-Data/
 * Rule-Based Recommendations
 * Python Data Analysis Basics
 
----
+-
 
 ## Notes
 
