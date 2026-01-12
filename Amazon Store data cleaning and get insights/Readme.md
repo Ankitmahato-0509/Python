@@ -1,78 +1,103 @@
-Amazon Store Data Analysis
+````md
+# Amazon Store Data Analysis
 
-This project analyzes customer feedback data from an Amazon-like online store using Python and Jupyter Notebook. It focuses on cleaning inconsistent data, deriving meaningful insights from customer reviews, and generating simple brand recommendations based on ratings.
+A practical Python project demonstrating data cleaning, analysis, and basic recommendation logic using customer review data stored in JSON format.
 
-📁 Project Structure
-├── store_data.json
-├── Amazon-Store-data.ipynb
-└── README.md
+---
 
-Files Description
+## Overview
 
-store_data.json
-A JSON array containing 6 customer reviews with the following fields:
+This repository contains a Jupyter notebook and a sample JSON dataset used to analyze customer feedback from an Amazon-like online store.  
+The project focuses on:
+- Cleaning inconsistent real-world data
+- Handling missing and duplicate values
+- Deriving meaningful insights from customer ratings
+- Generating simple brand recommendations
 
-name – Customer name
+---
 
-rating – Rating (numeric or text, e.g., "four")
+## Contents
 
-feedback – Customer review text
+### Main Files
 
-age – Customer age (some values missing)
+1. **Amazon-Store-data.ipynb**
+   - Jupyter notebook with step-by-step data analysis
+   - Loads JSON data using Python’s `json` module
+   - Cleans inconsistent ratings (text → numeric)
+   - Handles missing values (e.g., age)
+   - Removes duplicate customer entries
+   - Computes statistics and generates recommendations
 
-Amazon-Store-data.ipynb
-A Jupyter Notebook that:
+2. **store_data.json**
+   - Sample JSON dataset with 6 customer reviews
+   - Fields included:
+     - `name` – Customer name
+     - `rating` – Numeric or text-based rating
+     - `feedback` – Customer feedback text
+     - `age` – Customer age (some values missing)
 
-Loads the JSON data
+---
 
-Cleans and standardizes ratings
+## Key Concepts
 
-Handles missing values and duplicates
+### Data Loading
+- Reading JSON files using Python’s built-in `json` module
+- Printing raw data for inspection
 
-Computes key statistics
+### Data Cleaning
+- Converting text ratings such as `"four"` or `"five"` into numeric values
+- Handling missing ages by assigning `None`
+- Removing duplicate customer records
 
-Generates brand recommendations
+### Data Analysis
+- Calculating the **average customer rating**
+- Identifying **poor ratings** (ratings < 3)
+- Computing the **percentage of poor ratings**
 
-⚙️ Setup Instructions
+### Recommendation Logic
+- Ratings **≥ 4** → Recommend **Apple**
+- Ratings **< 4** → Recommend **Samsung**
 
-Ensure Python 3 and Jupyter Notebook are installed.
+---
 
-Place store_data.json in the same directory as the notebook.
+## Usage Examples
 
-Open the notebook:
+### Loading JSON Data
+```python
+import json
 
-jupyter notebook Amazon-Store-data.ipynb
+with open("store_data.json", "r") as file:
+    data = json.load(file)
+    print(data)
+````
 
+### Converting Text Ratings to Numbers
 
-Run the cells sequentially.
+```python
+rating_map = {
+    "one": 1,
+    "two": 2,
+    "three": 3,
+    "four": 4,
+    "five": 5
+}
 
-🚀 Usage
+if isinstance(rating, str):
+    rating = rating_map.get(rating.lower())
+```
 
-When you run the notebook, it will:
+### Calculating Average Rating
 
-Load and display raw data
+```python
+average_rating = sum(ratings) / len(ratings)
+print("Average rating:", average_rating)
+```
 
-Clean the dataset
+---
 
-Convert text ratings (e.g., "four" → 4)
+## Sample Cleaned Data Output
 
-Handle missing age values
-
-Remove duplicate entries
-
-Generate insights
-
-Average customer rating
-
-Percentage of poor ratings
-
-Produce recommendations
-
-Recommend Apple for users with ratings ≥ 4
-
-Recommend Samsung for users with ratings < 4
-
-🧹 Example Cleaned Data
+```text
 Name: Alice
 Rating: 5
 Age: 25
@@ -80,15 +105,89 @@ Age: 25
 Name: Charlie
 Rating: 2
 Age: None
+```
 
-📊 Insights (Sample Output)
+---
 
-Average Rating: 3.9
+## Insights Example
 
-Poor Ratings (< 3): 20% of users
+From sample execution:
 
-Recommendation Trend:
+* **Average Rating:** 3.9
+* **Poor Ratings (< 3):** 20% of users
+* **Recommendations:**
 
-High-rating users → Apple
+  * High ratings favor **Apple**
+  * Lower ratings favor **Samsung**
 
-Lower-rating users → Samsung
+---
+
+## Learning Outcomes
+
+After completing this project, you will understand:
+
+* ✓ How to load and parse JSON data in Python
+* ✓ Techniques for cleaning inconsistent datasets
+* ✓ Handling missing and duplicate values
+* ✓ Calculating basic statistics from real-world data
+* ✓ Implementing rule-based recommendation logic
+* ✓ Working with Jupyter Notebooks for data analysis
+
+---
+
+## File Structure
+
+```
+Amazon-Store-Data/
+├── README.md
+├── Amazon-Store-data.ipynb
+└── store_data.json
+```
+
+---
+
+## Requirements
+
+* Python 3.x
+* Jupyter Notebook
+* No external libraries required (uses built-in modules)
+
+---
+
+## Getting Started
+
+1. Clone or download this repository
+2. Ensure `store_data.json` is in the same directory as the notebook
+3. Open the notebook:
+
+   ```bash
+   jupyter notebook Amazon-Store-data.ipynb
+   ```
+4. Run the cells sequentially to view results
+
+---
+
+## Topics Covered
+
+* JSON Data Handling
+* Data Cleaning Techniques
+* Missing Value Handling
+* Duplicate Removal
+* Basic Statistical Analysis
+* Rule-Based Recommendations
+* Python Data Analysis Basics
+
+---
+
+## Notes
+
+* The dataset is intentionally small for learning purposes
+* Text and numeric ratings are mixed to simulate real-world data
+* The project is suitable for beginners in Python and data analysis
+
+---
+
+**Last Updated**: January 2026
+
+```
+```
