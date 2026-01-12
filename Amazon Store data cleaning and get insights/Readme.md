@@ -1,41 +1,94 @@
 Amazon Store Data Analysis
-This repository contains a Jupyter notebook and sample JSON dataset for analyzing customer feedback from an Amazon-like store. The notebook loads, cleans, and derives insights from the data, including average ratings and recommendations.
-​
 
-Files
-store_data.json: JSON array with 6 customer reviews, including fields for name, rating (text or numeric), feedback, and age (some missing).
-​
+This project analyzes customer feedback data from an Amazon-like online store using Python and Jupyter Notebook. It focuses on cleaning inconsistent data, deriving meaningful insights from customer reviews, and generating simple brand recommendations based on ratings.
 
-Amazon-Store-data.ipynb: Python notebook using json library to load data, clean inconsistencies (e.g., text ratings to numbers, duplicates), compute stats like average rating (3.9) and poor rating percentage (20%), and generate brand recommendations.
-​
+📁 Project Structure
+├── store_data.json
+├── Amazon-Store-data.ipynb
+└── README.md
 
-Setup
-Ensure Python 3 and Jupyter are installed.
+Files Description
+
+store_data.json
+A JSON array containing 6 customer reviews with the following fields:
+
+name – Customer name
+
+rating – Rating (numeric or text, e.g., "four")
+
+feedback – Customer review text
+
+age – Customer age (some values missing)
+
+Amazon-Store-data.ipynb
+A Jupyter Notebook that:
+
+Loads the JSON data
+
+Cleans and standardizes ratings
+
+Handles missing values and duplicates
+
+Computes key statistics
+
+Generates brand recommendations
+
+⚙️ Setup Instructions
+
+Ensure Python 3 and Jupyter Notebook are installed.
 
 Place store_data.json in the same directory as the notebook.
 
-Open Amazon-Store-data.ipynb in Jupyter and run cells sequentially.
+Open the notebook:
 
-Usage
-Run the notebook to:
+jupyter notebook Amazon-Store-data.ipynb
 
-Load and print raw data.
 
-Clean: Convert text ratings (e.g., "four" to 4), handle missing ages, remove duplicates.
+Run the cells sequentially.
 
-Generate insights: Average rating, poor rating percentage.
+🚀 Usage
 
-Produce recommendations: Suggest "Apple" for high ratings (≥4), "Samsung" otherwise.
-​
+When you run the notebook, it will:
 
-Example cleaned data output includes entries like Alice (rating 5, age 25) and Charlie (rating 2, age None).
-​
+Load and display raw data
 
-Insights Example
-From sample execution:
+Clean the dataset
 
-Average rating: 3.9
+Convert text ratings (e.g., "four" → 4)
 
-20% users with poor rating (<3)
+Handle missing age values
 
-Recommendations favor Apple for top reviewers
+Remove duplicate entries
+
+Generate insights
+
+Average customer rating
+
+Percentage of poor ratings
+
+Produce recommendations
+
+Recommend Apple for users with ratings ≥ 4
+
+Recommend Samsung for users with ratings < 4
+
+🧹 Example Cleaned Data
+Name: Alice
+Rating: 5
+Age: 25
+
+Name: Charlie
+Rating: 2
+Age: None
+
+📊 Insights (Sample Output)
+
+Average Rating: 3.9
+
+Poor Ratings (< 3): 20% of users
+
+Recommendation Trend:
+
+High-rating users → Apple
+
+Lower-rating users → Samsung
