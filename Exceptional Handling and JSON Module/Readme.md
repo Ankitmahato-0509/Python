@@ -1,197 +1,175 @@
-# Exception Handling and JSON Module
+# Amazon Store Data Analysis
 
-A comprehensive Python guide and practical examples for file handling, exception handling, and working with JSON data.
+A practical Python project demonstrating data cleaning, analysis, and basic recommendation logic using customer review data stored in JSON format.
+
+---
 
 ## Overview
 
-This repository contains educational materials and practical examples demonstrating:
-- **File I/O Operations**: Reading and writing files in Python
-- **Exception Handling**: Managing errors gracefully with try-except blocks
-- **JSON Module**: Working with JSON data format for data serialization
+This repository contains a Jupyter notebook and a sample JSON dataset used to analyze customer feedback from an Amazon-like online store.  
+The project focuses on:
+- Cleaning inconsistent real-world data
+- Handling missing and duplicate values
+- Deriving meaningful insights from customer ratings
+- Generating simple brand recommendations
+
+---
 
 ## Contents
 
 ### Main Files
 
-1. **File Handling and JSON Module.ipynb**
-   - Jupyter notebook with comprehensive examples
-   - Covers file operations (read, write, append, delete)
-   - File modes explanation (r, w, a, x, b, t, +)
-   - Exception handling mechanisms
-   - List comprehension examples
-   - JSON serialization and deserialization
+1. **Amazon-Store-data.ipynb**
+   - Jupyter notebook with step-by-step data analysis
+   - Loads JSON data using Python’s `json` module
+   - Cleans inconsistent ratings (text → numeric)
+   - Handles missing values (e.g., age)
+   - Removes duplicate customer entries
+   - Computes statistics and generates recommendations
 
-2. **code.json**
-   - Sample JSON data file
-   - Contains user information: name, age, city, student status
-   - Example:
-     ```json
-     {
-       "name": "Ankit Mahato",
-       "age": 20,
-       "city": "Noida",
-       "isStudent": true,
-       "Address": {
-         "city": "Noida",
-         "state": "Uttar Pradesh"
-       }
-     }
-     ```
-
-3. **Sample Files** (sample.txt, sample1.txt, sample2.txt)
-   - Text files for practicing file operations
-   - Contains biographical and descriptive content
-
-## Key Concepts
-
-### File Operations
-- **File Input (I)**: Reading data from files into your program
-- **File Output (O)**: Writing data from your program into files
-- **File Modes**:
-  - `r` - Read mode (default)
-  - `w` - Write mode (truncate file first)
-  - `a` - Append mode (write at end)
-  - `x` - Create and open for writing
-  - `b` - Binary mode
-  - `t` - Text mode (default)
-  - `+` - Open disk file for update (read/write)
-
-### Exception Handling
-```python
-try:
-    # Code that might raise an exception
-    result = 10 / x
-except ZeroDivisionError:
-    print("Cannot divide by zero!")
-except ValueError:
-    print("Please enter a valid number!")
-else:
-    print(f"Result is {result}")
-finally:
-    print("Execution completed.")
-```
-
-### JSON Module
-- `json.loads()` - Convert JSON string to Python object
-- `json.dumps()` - Convert Python object to JSON string
-- `json.load()` - Read JSON from file
-- `json.dump()` - Write JSON to file
-
-## JSON-Python Data Type Mapping
-
-| JSON | Python |
-|------|--------|
-| object | dict |
-| array | list |
-| string | str |
-| number | int/float |
-| true | True |
-| false | False |
-| null | None |
-
-## Usage Examples
-
-### Reading a File
-```python
-with open('sample.txt', 'r') as file:
-    content = file.read()
-    print(content)
-```
-
-### Working with JSON
-```python
-import json
-
-# Loading JSON from file
-with open('code.json', 'r') as file:
-    data = json.load(file)
-    print(data)
-
-# Dumping to JSON file
-with open('code.json', 'w') as file:
-    json.dump(data, file, indent=4, sort_keys=True)
-```
-
-### Exception Handling with JSON
-```python
-try:
-    with open('code.json', 'r') as file:
-        data = json.load(file)
-except FileNotFoundError:
-    print("File not found!")
-except json.JSONDecodeError:
-    print("Invalid JSON format!")
-```
-
-## Learning Outcomes
-
-After studying this repository, you will understand:
-- ✓ How to read and write files in Python
-- ✓ File modes and when to use each one
-- ✓ Exception handling with try-except-finally blocks
-- ✓ JSON data format and serialization
-- ✓ Working with JSON files in Python
-- ✓ Error handling best practices
-- ✓ List comprehension techniques
-
-## File Structure
-
-```
-Python/
-├── README.md (this file)
-├── File Handling and JSON Module.ipynb
-├── code.json
-├── sample.txt
-├── sample1.txt
-├── sample2.txt
-└── exception_handling_and_json/
-    └── example.py
-```
-
-## Requirements
-
-- Python 3.7 or higher
-- Jupyter Notebook (for running .ipynb files)
-- No external dependencies required (uses built-in modules: json, os)
-
-## Getting Started
-
-1. Clone this repository or download the files
-2. Open the Jupyter notebook to view detailed examples:
-   ```bash
-   jupyter notebook "File Handling and JSON Module.ipynb"
-   ```
-3. Review the sample JSON file to understand data structure
-4. Experiment with the Python code examples
-
-## Author
-
-**Ankit Mahato**
-- Location: Noida, Uttar Pradesh, India
-- Contact: Via GitHub
-
-## Topics Covered
-
-- File I/O Operations
-- Exception Handling
-- Try-Except-Finally Blocks
-- Error Management
-- JSON Serialization
-- List Comprehension
-- Python 3.x Best Practices
-
-## Notes
-
-- The notebook uses Python 3.11.9
-- All examples have been tested and executed
-- Sample data includes personal information for demonstration purposes
-- The repository is public and available for educational use
-
-## Contributing
-
-Feel free to fork this repository and add more examples or improvements!
+2. **store_data.json**
+   - Sample JSON dataset with 6 customer reviews
+   - Fields included:
+     - `name` – Customer name
+     - `rating` – Numeric or text-based rating
+     - `feedback` – Customer feedback text
+     - `age` – Customer age (some values missing)
 
 ---
 
-**Last Updated**: January 2026
+## Key Concepts
 
+### Data Loading
+- Reading JSON files using Python’s built-in `json` module
+- Printing raw data for inspection
+
+### Data Cleaning
+- Converting text ratings such as `"four"` or `"five"` into numeric values
+- Handling missing ages by assigning `None`
+- Removing duplicate customer records
+
+### Data Analysis
+- Calculating the **average customer rating**
+- Identifying **poor ratings** (ratings < 3)
+- Computing the **percentage of poor ratings**
+
+### Recommendation Logic
+- Ratings **≥ 4** → Recommend **Apple**
+- Ratings **< 4** → Recommend **Samsung**
+
+---
+
+## Usage Examples
+
+### Loading JSON Data
+```python
+import json
+
+with open("store_data.json", "r") as file:
+    data = json.load(file)
+    print(data)
+Converting Text Ratings to Numbers
+python
+Copy code
+rating_map = {
+    "one": 1,
+    "two": 2,
+    "three": 3,
+    "four": 4,
+    "five": 5
+}
+
+if isinstance(rating, str):
+    rating = rating_map.get(rating.lower())
+Calculating Average Rating
+python
+Copy code
+average_rating = sum(ratings) / len(ratings)
+print("Average rating:", average_rating)
+Sample Cleaned Data Output
+text
+Copy code
+Name: Alice
+Rating: 5
+Age: 25
+
+Name: Charlie
+Rating: 2
+Age: None
+Insights Example
+From sample execution:
+
+Average Rating: 3.9
+
+Poor Ratings (< 3): 20% of users
+
+Recommendations:
+
+High ratings favor Apple
+
+Lower ratings favor Samsung
+
+Learning Outcomes
+After completing this project, you will understand:
+
+✓ How to load and parse JSON data in Python
+
+✓ Techniques for cleaning inconsistent datasets
+
+✓ Handling missing and duplicate values
+
+✓ Calculating basic statistics from real-world data
+
+✓ Implementing rule-based recommendation logic
+
+✓ Working with Jupyter Notebooks for data analysis
+
+File Structure
+kotlin
+Copy code
+Amazon-Store-Data/
+├── README.md
+├── Amazon-Store-data.ipynb
+└── store_data.json
+Requirements
+Python 3.x
+
+Jupyter Notebook
+
+No external libraries required (uses built-in modules)
+
+Getting Started
+Clone or download this repository
+
+Ensure store_data.json is in the same directory as the notebook
+
+Open the notebook:
+
+bash
+Copy code
+jupyter notebook Amazon-Store-data.ipynb
+Run the cells sequentially to view results
+
+Topics Covered
+JSON Data Handling
+
+Data Cleaning Techniques
+
+Missing Value Handling
+
+Duplicate Removal
+
+Basic Statistical Analysis
+
+Rule-Based Recommendations
+
+Python Data Analysis Basics
+
+Notes
+The dataset is intentionally small for learning purposes
+
+Text and numeric ratings are mixed to simulate real-world data
+
+The project is suitable for beginners in Python and data analysis
+
+Last Updated: January 2026
