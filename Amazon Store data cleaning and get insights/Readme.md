@@ -1,4 +1,4 @@
-````md
+
 # Amazon Store Data Analysis
 
 A practical Python project demonstrating data cleaning, analysis, and basic recommendation logic using customer review data stored in JSON format.
