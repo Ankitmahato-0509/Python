@@ -189,5 +189,4 @@ Amazon-Store-Data/
 
 **Last Updated**: January 2026
 
-```
-```
+
