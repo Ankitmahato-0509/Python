@@ -1,76 +1,77 @@
-🐍 Python Basics – Input, Print, Variables & String Manipulation
+Got you 👍 — here’s the same **README.md** with **no emojis**:
 
-This repository contains Day 1 Python practice programs covering fundamental concepts like printing output, taking user input, working with variables, string operations, and a small beginner project (Band Name Generator) 
+---
 
-Day 1
+# Python Basics – Input, Print, Variables & String Manipulation
 
-📚 Topics Covered
+This repository contains Day 1 Python practice programs covering fundamental concepts like printing output, taking user input, working with variables, string operations, and a small beginner project (Band Name Generator).
 
-✅ print() function
+---
 
-✅ input() function
+## Topics Covered
 
-✅ Variables & naming conventions
+* `print()` function
+* `input()` function
+* Variables & naming conventions
+* String manipulation
 
-✅ String manipulation
+  * New lines (`\n`)
+  * Concatenation (`+`)
+  * Repetition (`*`)
+  * Indexing
+* `len()` function
+* Mini Project: Band Name Generator
 
-New lines (\n)
+---
 
-Concatenation (+)
+## Contents
 
-Repetition (*)
+* Basic print examples
+* String operations
+* User input programs
+* Variable usage
+* Naming rules for variables
+* Small interactive project
 
-Indexing
+---
 
-✅ len() function
+## How to Run
 
-✅ Mini Project: Band Name Generator
+1. Make sure Python is installed:
 
-📂 Contents
+   ```
+   python --version
+   ```
 
-Basic print examples
+2. Run any file using:
 
-String operations
+   ```
+   python filename.py
+   ```
 
-User input programs
+3. Follow the prompts in the terminal for input-based programs.
 
-Variable usage
+---
 
-Naming rules for variables
+## Sample Output
 
-Small interactive project
-
-▶️ How to Run
-
-Make sure Python is installed:
-
-python --version
-
-
-Run any file using:
-
-python filename.py
-
-
-Follow the prompts in the terminal for input-based programs.
-
-💡 Sample Output
+```
 Hello! Ankit
 Length of your name is: 5
+```
 
+```
 Welcome to the band name generater.
 Band Name could be Mexico Crocodile.
+```
 
-🎯 Purpose
+---
+
+## Purpose
 
 This repo is part of my Python learning journey and focuses on building strong programming basics before moving to loops, conditions, and functions.
 
-🚀 Future Plans
+---
 
-Add loops & conditionals
 
-More mini-projects
-
-Daily practice folders
-
-⭐ If you’re learning Python too, feel free to explore or fork this repo!
+If you want it slightly more formal or shorter for GitHub, tell me and I’ll tweak it.
