@@ -1,7 +1,3 @@
-Got you 👍 — here’s the same **README.md** with **no emojis**:
-
----
-
 # Python Basics – Input, Print, Variables & String Manipulation
 
 This repository contains Day 1 Python practice programs covering fundamental concepts like printing output, taking user input, working with variables, string operations, and a small beginner project (Band Name Generator).
@@ -75,3 +71,4 @@ This repo is part of my Python learning journey and focuses on building strong p
 
 
 If you want it slightly more formal or shorter for GitHub, tell me and I’ll tweak it.
+
