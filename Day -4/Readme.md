@@ -130,5 +130,3 @@ This practice focuses on:
 * Creating small real-world simulations
 
 ---
-
-If you want, I can make a **standard README template** for all your Python practice folders so your GitHub profile looks clean and consistent across projects 📁🔥
