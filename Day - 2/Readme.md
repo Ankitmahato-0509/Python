@@ -91,7 +91,7 @@ cd Day-2
 3. Run any file:
 
 ```
-python Day-2 .py
+python filename.py
 ```
 
 ---
@@ -108,4 +108,3 @@ The purpose of this day was to:
 
 ---
 
-If you want it even more minimal (shorter README) or formatted for GitHub portfolio style, just tell me 😄
