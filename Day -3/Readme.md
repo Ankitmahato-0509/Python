@@ -135,4 +135,3 @@ This practice focuses on:
 
 ---
 
-If you want, next we can make a **consistent README template** for all your Python days so your GitHub profile looks super clean and portfolio-ready 📁🔥
