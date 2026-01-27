@@ -1,117 +1,111 @@
-Day 2 – Python Basics & Mini Projects
+# Day 2 – Python Basics & Mini Projects
 
 This folder contains my Day 2 Python practice programs, covering core fundamentals such as data types, strings, mathematical operations, and small beginner projects like a BMI calculator and Tip Calculator.
 
-Topics Covered
-Python Data Types
+---
 
-Numbers (int, float, complex)
+## Topics Covered
 
-Strings
+### Python Data Types
 
-Lists
+* Numbers (int, float, complex)
+* Strings
+* Lists
+* Tuples
+* Dictionaries
+* Sets
+* Boolean values
 
-Tuples
+---
 
-Dictionaries
+### String Operations
 
-Sets
+* Indexing
+* Slicing
+* Concatenation
+* Repetition
+* Uppercase / Lowercase
+* Length
 
-Boolean values
+---
 
-String Operations
+### Mathematical Operations
 
-Indexing
+* Addition, subtraction, multiplication
+* Division & Floor Division
+* Modulus
+* Exponentiation
+* PEMDAS / BODMAS rules
+* Operator precedence
 
-Slicing
+---
 
-Concatenation
+### Input & Type Conversion
 
-Repetition
+* input()
+* int(), float(), str()
+* round()
 
-Uppercase / Lowercase
+---
 
-Length
+### f-Strings
 
-Mathematical Operations
+* Formatting output using:
 
-Addition, subtraction, multiplication
-
-Division & Floor Division
-
-Modulus
-
-Exponentiation
-
-PEMDAS / BODMAS rules
-
-Operator precedence
-
-Input & Type Conversion
-
-input()
-
-int(), float(), str()
-
-round()
-
-f-Strings
-
-Formatting output using:
-
+```python
 f"Your score is: {score}"
+```
 
-Mini Projects
-BMI Calculator
+---
 
-Takes user weight and height
+## Mini Projects
 
-Calculates BMI
+### BMI Calculator
 
-Displays rounded values
+* Takes user weight and height
+* Calculates BMI
+* Displays rounded values
 
-Tip Calculator
+---
 
-Takes total bill
+### Tip Calculator
 
-Tip percentage
+* Takes total bill
+* Tip percentage
+* Number of people
+* Splits final amount per person
 
-Number of people
-
-Splits final amount per person
-
-Suggested Folder Structure
-Day2_Python_Basics/
- ├── datatypes.py
- ├── strings.py
- ├── math_operations.py
- ├── bmi_calculator.py
- ├── tip_calculator.py
- └── README.md
-
-How to Run the Programs
-
-Open terminal or command prompt.
-
-Navigate to the folder:
-
-cd Day2_Python_Basics
+---
 
 
-Run any file:
 
-python filename.py
+## How to Run the Programs
 
-Learning Goal
+1. Open terminal or command prompt.
+2. Navigate to the folder:
+
+```
+cd Day-2
+```
+
+3. Run any file:
+
+```
+python Day-2 .py
+```
+
+---
+
+## Learning Goal
 
 The purpose of this day was to:
 
-Understand Python core data types
+* Understand Python core data types
+* Practice operators
+* Learn user input handling
+* Build confidence with small programs
+* Prepare for future projects
 
-Practice operators
+---
 
-Learn user input handling
-
-Build confidence with small programs
-
-Prepare for future projects
+If you want it even more minimal (shorter README) or formatted for GitHub portfolio style, just tell me 😄
