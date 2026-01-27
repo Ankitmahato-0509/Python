@@ -1,7 +1,3 @@
-Here’s a clean, professional **README.md** for this control-flow–focused folder/project that you can paste directly into GitHub.
-
----
-
 # Python Control Flow Statements & Practice Programs
 
 This folder contains Python programs demonstrating **control flow statements**, which determine the order in which instructions are executed.
