@@ -12,7 +12,7 @@ These exercises are ideal for **Python beginners** learning how to write clean, 
 - [Reeborg's World Challenges](#reeborgs-world-challenges)
 - [How to Run](#how-to-run)
 - [Learning Objectives](#learning-objectives)
-- [Ideal For](#ideal-for)
+
 
 ##  Hangman Game
 **Complete implementation** through 5 progressive steps:
