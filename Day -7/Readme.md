@@ -123,6 +123,3 @@ By completing this notebook, you will:
 
 
 ***
-
-⭐ **Star if helpful!**  
-📚 **For Python learners**
