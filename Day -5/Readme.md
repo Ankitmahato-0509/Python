@@ -102,7 +102,7 @@ for fruit in fruits:
 * Uses `random.seed()`
 * Outputs Heads or Tails
 
----
+
 
 ### Banker Roulette
 
