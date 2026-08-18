@@ -1,4 +1,4 @@
-# Python Control Flow Statements & Practice Programs
+# Day 3 – Python Control Flow Statements & Practice Programs
 
 This folder contains Python programs demonstrating **control flow statements**, which determine the order in which instructions are executed.
 It includes conditional statements, loops, flow modifiers, and several mini projects based on real-world scenarios.
