@@ -181,21 +181,6 @@ Through these exercises, I am working toward:
 
 
 
-## Skills Practiced
-
-* Python
-* Functions
-* Parameters & Arguments
-* Loops
-* Conditional Statements
-* User Input
-* String Manipulation
-* Basic Mathematics
-* Logical Problem Solving
-* Encryption & Decryption
-* Jupyter Notebook
-
-
 
 ## Project Status
 
