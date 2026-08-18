@@ -1,11 +1,9 @@
-````markdown
+
 # Python Basics & Mini Projects
 
 This repository contains my Python learning journey, starting with basic functions and progressing to small logical programs and mini projects.
 
 The main focus is on understanding **functions, parameters, arguments, user input, loops, conditional statements, and basic problem-solving**.
-
-
 
 ##  Topics Covered
 
@@ -20,7 +18,6 @@ The main focus is on understanding **functions, parameters, arguments, user inpu
 - String Manipulation
 - Mini Projects
 - Encryption & Decryption
-
 
 
 ##  Programs Included
