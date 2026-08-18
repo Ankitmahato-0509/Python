@@ -1,4 +1,4 @@
-# Python Modules, Random Library, Lists & Mini Projects
+# Day 4 – Python Modules, Random Library, Lists & Mini Projects
 
 This folder contains Python programs demonstrating how to use **modules**, the built-in **random** library, **list operations**, and several logic-based mini projects and games.
 
