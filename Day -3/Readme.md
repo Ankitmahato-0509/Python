@@ -3,7 +3,7 @@
 This folder contains Python programs demonstrating **control flow statements**, which determine the order in which instructions are executed.
 It includes conditional statements, loops, flow modifiers, and several mini projects based on real-world scenarios.
 
----
+
 
 ## Topics Covered
 
@@ -22,7 +22,7 @@ Examples include:
 * ATM menu system
 * Height and age checks
 
----
+
 
 ### Loops
 
@@ -35,7 +35,7 @@ Used to:
 * Repeat tasks
 * Iterate with counters
 
----
+
 
 ### Control Flow Modifiers
 
@@ -43,7 +43,7 @@ Used to:
 * `continue` – skips the current iteration
 * `pass` – placeholder for future code
 
----
+
 
 ## Practice Programs & Mini Projects
 
@@ -52,7 +52,7 @@ Used to:
 * Takes a number as input
 * Determines whether it is odd or even
 
----
+
 
 ### Nested If-Else Examples
 
@@ -60,7 +60,7 @@ Used to:
 * ATM transaction menu
 * Roller coaster eligibility & ticket pricing
 
----
+
 
 ### BMI Calculator
 
@@ -74,7 +74,7 @@ Used to:
   * Obese
   * Clinically obese
 
----
+
 
 ### Leap Year Checker
 
@@ -84,7 +84,7 @@ Used to:
   * Divisible by 100
   * Divisible by 400
 
----
+
 
 ### Roller Coaster Billing System
 
@@ -93,7 +93,7 @@ Used to:
 * Optional photo charge
 * Calculates total bill
 
----
+
 
 ### Pizza Billing Program
 
@@ -103,7 +103,7 @@ Used to:
 * Displays final bill
 * Includes corrected version of logic
 
----
+
 
 ## How to Run the Programs
 
@@ -120,7 +120,6 @@ cd Control-Flow-Python
 python filename.py
 ```
 
----
 
 ## Learning Objectives
 
