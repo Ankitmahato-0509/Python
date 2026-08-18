@@ -1,5 +1,4 @@
-
-# Python Basics & Mini Projects
+# Day 8 –  Python Basics & Mini Projects
 
 This repository contains my Python learning journey, starting with basic functions and progressing to small logical programs and mini projects.
 
