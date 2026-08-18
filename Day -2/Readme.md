@@ -2,7 +2,6 @@
 
 This folder contains my Day 2 Python practice programs, covering core fundamentals such as data types, strings, mathematical operations, and small beginner projects like a BMI calculator and Tip Calculator.
 
----
 
 ## Topics Covered
 
@@ -16,7 +15,7 @@ This folder contains my Day 2 Python practice programs, covering core fundamenta
 * Sets
 * Boolean values
 
----
+
 
 ### String Operations
 
@@ -27,7 +26,7 @@ This folder contains my Day 2 Python practice programs, covering core fundamenta
 * Uppercase / Lowercase
 * Length
 
----
+
 
 ### Mathematical Operations
 
@@ -38,7 +37,7 @@ This folder contains my Day 2 Python practice programs, covering core fundamenta
 * PEMDAS / BODMAS rules
 * Operator precedence
 
----
+
 
 ### Input & Type Conversion
 
@@ -46,7 +45,7 @@ This folder contains my Day 2 Python practice programs, covering core fundamenta
 * int(), float(), str()
 * round()
 
----
+
 
 ### f-Strings
 
@@ -56,7 +55,6 @@ This folder contains my Day 2 Python practice programs, covering core fundamenta
 f"Your score is: {score}"
 ```
 
----
 
 ## Mini Projects
 
@@ -66,7 +64,7 @@ f"Your score is: {score}"
 * Calculates BMI
 * Displays rounded values
 
----
+
 
 ### Tip Calculator
 
@@ -74,8 +72,6 @@ f"Your score is: {score}"
 * Tip percentage
 * Number of people
 * Splits final amount per person
-
----
 
 
 
