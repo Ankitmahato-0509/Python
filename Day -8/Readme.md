@@ -202,9 +202,3 @@ Through these exercises, I am working toward:
 **Status:** Completed
 
 This repository represents my practice with Python fundamentals and beginner-level mini projects.
-
-```markdown
-![Caesar Cipher](YOUR_GITHUB_IMAGE_LINK_HERE)
-````
-
-with your actual GitHub image path when you upload the screenshot.
