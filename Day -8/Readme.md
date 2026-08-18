@@ -3,7 +3,7 @@
 This repository contains my Python learning journey, starting from basic functions to small logical programs like a **Prime Number Checker** and a **Caesar Cipher**.
 It is mainly focused on understanding **functions, arguments, loops, and conditionals**.
 
----
+
 
 ##  Topics Covered
 
@@ -15,7 +15,7 @@ It is mainly focused on understanding **functions, arguments, loops, and conditi
 *  Error Handling (basic)
 *  Mini Projects
 
----
+
 
 ##  Programs Included
 
@@ -32,7 +32,7 @@ def greet():
     print("Hello, World!")
 ```
 
----
+
 
 ### 2️ Function with Parameters
 
@@ -44,7 +44,7 @@ def greet(name, age):
     print(f"You are {age} years old.")
 ```
 
----
+
 
 ### 3️ Paint Can Calculator 
 
@@ -56,7 +56,7 @@ def no_of_cans(height, width, coverage):
     print(round(cans))
 ```
 
----
+
 
 ###  Prime Number Checker 
 
@@ -91,7 +91,7 @@ def caser(start_text, shift_amount, direction):
 The current version throws an error when spaces or special characters are used (`' ' is not in list`).
 This can be fixed by adding a condition to skip non-alphabet characters.
 
----
+
 
 ##  How to Run
 
@@ -114,7 +114,7 @@ python filename.py
 * Python 3.11+
 * No external libraries required (except `art` module for logo display in Caesar Cipher)
 
----
+
 
 ##  Learning Goal
 
