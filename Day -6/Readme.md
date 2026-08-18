@@ -6,7 +6,7 @@ It also includes **Reeborg’s World challenges** (Hurdles & Maze) to practice r
 
 These exercises are ideal for **Python beginners** learning how to write clean, reusable, and logical code.
 
----
+
 
 ## Topics Covered
 
@@ -28,7 +28,7 @@ def my_function():
 my_function()
 ```
 
----
+
 
 ### Indentation in Python
 
@@ -48,7 +48,7 @@ print("Bye!")
 my_function()
 ```
 
----
+
 
 ### While Loops
 
@@ -65,7 +65,6 @@ while i < 10:
     i += 1
 ```
 
----
 
 ### For Loops
 
@@ -80,9 +79,9 @@ for i in range(1, 11):
     print(i)
 ```
 
----
 
-## Reeborg’s World Challenges 🤖
+
+## Reeborg’s World Challenges 
 
 These exercises use **Reeborg’s World** to practice movement logic, conditions, and loops.
 
@@ -94,7 +93,6 @@ These exercises use **Reeborg’s World** to practice movement logic, conditions
 * Breaking down repeated movements
 * Improving readability
 
----
 
 ### Hurdle 1
 
@@ -108,7 +106,6 @@ These exercises use **Reeborg’s World** to practice movement logic, conditions
 * While loops
 * Counters
 
----
 
 ### Hurdle 2
 
@@ -116,7 +113,7 @@ These exercises use **Reeborg’s World** to practice movement logic, conditions
 * Letting the robot run until the goal is reached
 * Cleaner logic without hard-coding steps
 
----
+
 
 ### Hurdle 3
 
@@ -124,7 +121,7 @@ These exercises use **Reeborg’s World** to practice movement logic, conditions
 * Detecting walls with `wall_in_front()`
 * Making decisions dynamically
 
----
+
 
 ### Hurdle 4
 
@@ -138,7 +135,7 @@ These exercises use **Reeborg’s World** to practice movement logic, conditions
 * Conditional checks
 * Reusable functions
 
----
+
 
 ### Maze Solver
 
@@ -151,7 +148,7 @@ These exercises use **Reeborg’s World** to practice movement logic, conditions
 * `front_is_clear()`
 * `turn_left()` and custom `turn_right()`
 
----
+
 
 ## How to Run the Notebook
 
@@ -170,7 +167,7 @@ These exercises use **Reeborg’s World** to practice movement logic, conditions
 3. Open the `.ipynb` file
 4. Run cells step by step
 
----
+
 
 ## Learning Objectives
 
@@ -184,7 +181,7 @@ By completing this notebook, you will:
 * Solve problems step by step
 * Improve algorithmic thinking
 
----
+
 
 ## Ideal For
 
@@ -193,5 +190,5 @@ By completing this notebook, you will:
 * Anyone practicing loops and functions
 * Learners using Reeborg’s World challenges
 
----
+
 
