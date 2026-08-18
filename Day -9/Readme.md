@@ -281,4 +281,3 @@ This notebook is part of my Python learning journey to:
 * Build small Python projects
 * Prepare for more advanced Python concepts
 
-```
