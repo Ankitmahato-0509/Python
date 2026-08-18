@@ -70,7 +70,6 @@ def prime_checker(number):
             is_prime = False
 ```
 
----
 
 ###  Caesar Cipher 
 
