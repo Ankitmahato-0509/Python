@@ -5,7 +5,7 @@ It focuses on **modules**, the built-in **random** library, **lists**, **loops**
 
 These exercises are ideal for beginners who want hands-on practice with core Python concepts and interactive console programs.
 
----
+
 
 ## Topics Covered
 
@@ -20,7 +20,7 @@ These exercises are ideal for beginners who want hands-on practice with core Pyt
 
 * Using `pi` from a custom module to calculate the area of a circle
 
----
+
 
 ### Random Module
 
@@ -37,7 +37,7 @@ These exercises are ideal for beginners who want hands-on practice with core Pyt
 * Banker roulette
 * Password generator
 
----
+
 
 ### Python Lists
 
@@ -51,7 +51,7 @@ These exercises are ideal for beginners who want hands-on practice with core Pyt
 * Extending lists
 * Random selection from lists
 
----
+
 
 ### Loops (for loop)
 
@@ -68,7 +68,7 @@ for fruit in fruits:
     print("I like " + fruit)
 ```
 
----
+
 
 ### String to List Conversion
 
@@ -77,7 +77,7 @@ for fruit in fruits:
 * Splitting by commas
 * Converting string inputs to integers
 
----
+
 
 ### Range Function
 
@@ -86,7 +86,7 @@ for fruit in fruits:
 * Using range in loops
 * Summing numbers with range
 
----
+
 
 ## Mini Projects & Practice Programs
 
@@ -95,7 +95,7 @@ for fruit in fruits:
 * Uses a custom module containing `pi`
 * Calculates the area of a circle using imported values
 
----
+
 
 ### Coin Toss Simulator
 
@@ -109,14 +109,14 @@ for fruit in fruits:
 * Randomly selects who pays the bill
 * Uses comma-separated user input
 
----
+
 
 ### Treasure Island Grid Game
 
 * Uses a 3×3 matrix
 * Places treasure based on user input
 
----
+
 
 ### Rock Paper Scissors Game
 
@@ -124,7 +124,7 @@ for fruit in fruits:
 * User vs computer
 * Determines win, lose, or draw
 
----
+
 
 ### Pizza Billing Program
 
@@ -132,7 +132,7 @@ for fruit in fruits:
 * Pepperoni and cheese add-ons
 * Calculates the final bill
 
----
+
 
 ### Student Height Average Calculator
 
@@ -141,21 +141,21 @@ for fruit in fruits:
 * Counts number of students
 * Computes average height without built-in functions
 
----
+
 
 ### Highest Score Finder
 
 * Finds the highest score from a list
 * Uses loops instead of `max()`
 
----
+
 
 ### Sum of Numbers (1–100)
 
 * Uses `range()`
 * Demonstrates accumulation logic
 
----
+
 
 ### PyPassword Generator
 
@@ -167,7 +167,7 @@ for fruit in fruits:
   * Number of numbers
 * Password is shuffled for unpredictability
 
----
+
 
 ## How to Run the Programs
 
@@ -201,7 +201,7 @@ for fruit in fruits:
    ```
 3. Open the notebook and run cells step by step
 
----
+
 
 ## Learning Objectives
 
@@ -216,7 +216,6 @@ By completing this project, you will:
 * Improve logical thinking and problem-solving skills
 * Create small real-world simulations and games
 
----
 
 ## Ideal For
 
@@ -224,5 +223,5 @@ By completing this project, you will:
 * Students learning programming fundamentals
 * Anyone practicing logic building with Python
 
----
+
 
