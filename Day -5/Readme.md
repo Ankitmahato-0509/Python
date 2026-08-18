@@ -1,4 +1,4 @@
-# Python Modules, Random, Lists & Loop Practice
+# Day 5 – Python Modules, Random, Lists & Loop Practice
 
 This repository contains Python programs and notebook examples designed to build strong fundamentals in **Python programming**.
 It focuses on **modules**, the built-in **random** library, **lists**, **loops**, **range**, and several **logic-based mini projects and games**.
