@@ -1,4 +1,4 @@
-# Python Functions, Loops & Logic Practice 
+# Day 6 – Python Functions, Loops & Logic Practice 
 
 This repository contains **Python practice examples and notebook exercises** focused on building a strong foundation in **functions**, **loops**, **indentation**, and **logic-based problem solving**.
 
