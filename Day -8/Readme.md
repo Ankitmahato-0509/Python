@@ -106,8 +106,6 @@ git clone https://github.com/your-username/repo-name.git
 python filename.py
 ```
 
----
-
 ##  Requirements
 
 * Python 3.11+
