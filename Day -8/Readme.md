@@ -19,7 +19,7 @@ It is mainly focused on understanding **functions, arguments, loops, and conditi
 
 ##  Programs Included
 
-### 1️ Hello World & Functions
+### 1️. Hello World & Functions
 
 Basic examples of:
 
@@ -34,7 +34,7 @@ def greet():
 
 
 
-### 2️ Function with Parameters
+### 2️. Function with Parameters
 
 Using arguments and parameters in functions.
 
@@ -46,7 +46,7 @@ def greet(name, age):
 
 
 
-### 3️ Paint Can Calculator 
+### 3️. Paint Can Calculator 
 
 Calculates the number of paint cans required based on height, width, and coverage.
 
