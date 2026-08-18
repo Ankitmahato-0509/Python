@@ -4,7 +4,7 @@ This folder contains Python programs demonstrating how to use **modules**, the b
 
 The goal is to strengthen understanding of importing modules, working with collections, randomness, and building interactive console programs.
 
----
+
 
 ## Topics Covered
 
@@ -19,7 +19,7 @@ Example:
 
 * Using `pi` from `my_module` to calculate the area of a circle.
 
----
+
 
 ### Random Module
 
@@ -30,7 +30,7 @@ Example:
 * Coin toss simulation
 * Love score generator
 
----
+
 
 ### Python Lists
 
@@ -44,7 +44,7 @@ Example:
 * Extending lists
 * Random choice from a list
 
----
+
 
 ### String to List Conversion
 
@@ -52,7 +52,7 @@ Example:
 * Splitting by spaces
 * Splitting by commas
 
----
+
 
 ## Mini Projects & Games
 
@@ -61,28 +61,28 @@ Example:
 * Uses a custom module containing `pi`
 * Calculates circle area using imported value
 
----
+
 
 ### Coin Toss Simulator
 
 * Uses random seed
 * Outputs Heads or Tails
 
----
+
 
 ### Banker Roulette
 
 * Randomly selects who pays the bill
 * Uses comma-separated input
 
----
+
 
 ### Treasure Island Grid Game
 
 * Uses a 3×3 matrix
 * Places treasure based on user input
 
----
+
 
 ### Rock Paper Scissors Game
 
@@ -90,7 +90,7 @@ Example:
 * User vs computer
 * Determines win, lose, or tie
 
----
+
 
 ### Pizza Billing Program
 
@@ -98,7 +98,7 @@ Example:
 * Pepperoni and cheese add-ons
 * Calculates final bill correctly
 
----
+
 
 ## How to Run the Programs
 
@@ -115,7 +115,7 @@ cd Python-Modules-Random-Lists
 python filename.py
 ```
 
----
+
 
 ## Learning Objectives
 
