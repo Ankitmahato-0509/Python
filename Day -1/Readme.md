@@ -1,4 +1,4 @@
-# Python Basics – Input, Print, Variables & String Manipulation
+# Day 1 – Python Basics – Input, Print, Variables & String Manipulation
 
 This repository contains Day 1 Python practice programs covering fundamental concepts like printing output, taking user input, working with variables, string operations, and a small beginner project (Band Name Generator).
 
